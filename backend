@@ -1,0 +1,21 @@
+backend
+
+index.js
+model - folder
+routes -folder get post put patch delete
+
+//Schema for Shoping site
+
+brand    -   title, logo, overview
+category -   title image
+product  -   title, brand, category, price, discount, specifications, overview, image, addedDate
+user     -   email id, password, full name, phone no, regDate
+admin    -   username, password
+cart     -   productId, title, image, price, discount
+address  -   fullName, address, area, city, detail, phone no, userid
+order    -   userid, name, email id, phone no, amount, tax, charges
+
+//Routes
+
+***user*** - 
+form reg -> app.post - save
